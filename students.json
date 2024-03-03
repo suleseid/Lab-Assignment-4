@@ -1,0 +1,93 @@
+[
+    {
+      "name": "Alex Doe",
+      "age": 21,
+      "grade": "Junior",
+      "major": "Computer Science"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 22,
+      "grade": "Senior",
+      "major": "Mathematics"
+    },
+    {
+      "name": "Emily Johnson",
+      "age": 20,
+      "grade": "Sophomore",
+      "major": "Biology"
+    },
+    {
+      "name": "Saraha Rubin",
+     "age": 22, 
+     "grade": "Senior", 
+     "major": "Computer Science"
+    },
+    {
+      "name": "Lina Jemal",
+     "age": 19, 
+     "grade": "Junior",
+      "major": "Biology"
+    },
+    {
+      "name": "Amir Lery",
+      "age": 23,
+      "grade": "Junior",
+      "major": "Computer Science"
+    },
+    {
+      "name": "Judy Smith",
+      "age": 21,
+      "grade": "Senior",
+      "major": "Chemistry"
+    },
+    {
+      "name": "Sofia Johnson",
+      "age": 19,
+      "grade": "Sophomore",
+      "major": "Chemistry"
+    },
+    {
+      "name": "Dawud Hasan",
+     "age": 20, 
+     "grade": "Junior", 
+     "major": "Computer Science"
+    },
+    {
+      "name": "Ali Baba",
+     "age": 21, 
+     "grade": "Senior",
+      "major": "Computer Science"
+    },
+    {
+      "name": "Andrew Rodrigo",
+      "age": 20,
+      "grade": "Junior",
+      "major": "Mathematics"
+    },
+    {
+      "name": "Hazwa Seid",
+      "age": 19,
+      "grade": "Junior",
+      "major": "Biology"
+    },
+    {
+      "name": "Mohammed Isaq",
+      "age": 21,
+      "grade": "Sophomore",
+      "major": "Chemistry"
+    },
+    {
+      "name": "Dave Michel",
+     "age": 22, 
+     "grade": "Junior", 
+     "major": "Computer Science"
+    },
+    {
+      "name": "Tasnim Omer",
+     "age": 22, 
+     "grade": "Senior",
+      "major": "Computer Science"
+    }
+
+  ]
