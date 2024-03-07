@@ -7,7 +7,7 @@
         .then(response => response.json())
         .then(data => {
           const studentList = data.map(student => {
-            return `<div>Name: ${student.name} - Age: ${student.age} - Grade: ${student.grade} - Major: ${student.major}</div>`;
+            return `<li>Name: ${student.name} - Age: ${student.age} - Grade: ${student.grade} - Major: ${student.major}</li>`;
           }).join('');
           studentDataElement.innerHTML = studentList;
         })
@@ -15,7 +15,7 @@
           studentDataElement.innerHTML = `<div>Error fetching data: ${error}</div>`;
         });
     }
-  
+
     // Task 3: Handling Asynchronous Operations with Promises
     function fetchData() {
       return new Promise((resolve, reject) => {
@@ -62,16 +62,19 @@
         .then(data => {
           const oddIndexStudents = data.filter((student, index) => index % 2 !== 0);
           displayFilteredStudents(oddIndexStudents);
+          
         })
         .catch(error => {
           studentDataElement.innerHTML = `<div>Error: ${error}</div>`;
         });
+
     });
   
     // This helps the function to display filtered students
     function displayFilteredStudents(students) {
       const filteredStudentList = students.map(student => {
         return `<div>Name: ${student.name} - Age: ${student.age} - Grade: ${student.grade} - Major: ${student.major}</div>`;
+        
       }).join('');
       studentDataElement.innerHTML = filteredStudentList;
     }
